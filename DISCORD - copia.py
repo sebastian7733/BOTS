@@ -9,7 +9,7 @@ async def on_ready():
 
     @bot.command()
     async def ping(ctx):
-        await ctx.send ("pong!")
+        await ctx.send ("Hola Sebastian!")
         @bot.command()
         async def partida(ctx):
             await ctx.send ("CHESS GAME")
